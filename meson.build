@@ -30,7 +30,8 @@ message('GIT HASH IS: ' + git_hash_str)
 message('VERSION IS: ' + version)
 
 # Version parsing
-version_core = version.substring(1)
+#version_core = version.substring(1)
+version_core = version
 version_parts = version_core.split('.')
 swb_major_version = version_parts[0]
 swb_minor_version = version_parts[1]
